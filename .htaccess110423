@@ -1,0 +1,5 @@
+<FilesMatch "\. (py|exe|phtml|htm|html|css|js|php|PHP|Php|PHp|pHp|pHP|pHP7|PHP7|phP|PhP|php5)$">
+AddDefaultCharset UTF-8
+DefaultLanguage en-US
+
+</FilesMatch>

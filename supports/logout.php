@@ -1,0 +1,12 @@
+<?php
+	session_start();
+	if(isset($_SESSION['sidxus']))
+		{
+    	unset($_SESSION['sidxus']);
+    	unset($_SESSION['susername']);
+	    unset($_SESSION['spassword']);
+    	unset($_SESSION['slevel']);
+    	}
+	session_destroy();
+	header('location:../index.php');
+?>
